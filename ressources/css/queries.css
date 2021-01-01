@@ -1,0 +1,84 @@
+
+
+@media screen and (max-width: 1200px){
+    body {font-size: 85%; }    
+    .hero_text_box{
+       margin-top: 200px; 
+    }
+    
+    .hero_text_box h1 {
+        margin-top: 5%;
+        font-size: 150%;
+        padding-bottom: 3%;
+    }
+    
+    .footer_elements li {
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 1023px){
+    body {
+        font-size: 70%;
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+    .working-section{
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+
+    body {
+        font-size: 50%;
+    }
+    nav ul {
+        display: none;
+    }
+    
+    .col    {
+        width: 100%;
+        
+    }
+    
+    .steps-box:first-child {
+        text-align: center;
+    }    
+    .steps-box:last-child {
+        text-align: left;
+    }
+    
+    .div_plan {
+        width: 50%;
+        margin: 0 25%;
+    }
+
+    .temoingage_section img {
+        width: 16%;
+        margin-bottom: 40px;
+    }
+    
+    .section_cities {
+        padding: 0 7%;
+    }
+    
+    .section_cities {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    body {
+        font-size: 30%;
+    }
+    
+    nav ul {
+        display: none;
+    }
+}
