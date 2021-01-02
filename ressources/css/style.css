@@ -73,7 +73,6 @@ header h1 {
 .btn_full:link, .btn_full:visited, input[type=submit] {
     background-color: #e67e22;
     color: #fff;
-    /*margin-left: 15%;*/
 }
 
 .btn_ghost:link, .btn_ghost:visited {
@@ -127,6 +126,7 @@ header h1 {
     text-align: center;
     padding: 0 20px;
     margin-bottom: 30px;
+    margin-top: -40px;
 }
 
 h2 {
@@ -146,7 +146,7 @@ h2:after {
     content: "";
     text-align: center;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px
 }
 
@@ -262,6 +262,10 @@ h2:after {
 .work_steps {
     margin: 50px 0px;
     
+}
+
+.work_steps:last-child {
+    margin-bottom: 1%;
 }
 .work_steps p{
     font-weight: 400;
@@ -577,4 +581,12 @@ footer {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+.work_steps_last{
+        text-align: center;
+    }
+    
+    .work_steps_last img {
+        width: 40%;
+    }
 
