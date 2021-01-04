@@ -581,4 +581,6 @@ footer {
     .work_steps_last img {
         width: 40%;
     }
-
+    .cities {
+        padding: 2%;
+    }
