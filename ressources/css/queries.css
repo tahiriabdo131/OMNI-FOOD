@@ -34,6 +34,10 @@
         padding: 2% 2%;
     }
     
+    .steps-box:last-child {
+        margin-top: -50px;
+    }
+    
 
 }
 
@@ -72,7 +76,8 @@
     }
     
     .section_cities {
-        padding: 3% 7% 7% 3%;
+        /*padding: 3% 7% 7% 3%;*/
+
     }
     
     .contact-form input {
@@ -99,6 +104,10 @@
         line-height: 15px;
     }
     
+    .section_cities {
+        padding-top: 20px; 
+    }
+    
     .section_cities ul {
         margin-bottom: 20px;
     }
@@ -107,24 +116,70 @@
         width: 50%;
     }
     
-    .section_cities {
-        margin-left: 35%
+    .cities {
+        margin: 0 25% 5% 25%;
+        width: 100%;
     }
     
     .section_cities h2 {
-        margin-left: -120px;
-        font-size: 170%;
+        text-align: center
     }
     
     .temoingage_section {
         margin-top: -30px;
+        padding-top: 10px;
+    }
+    
+    work_steps {
+        padding: 3px 0;
+    }
+    
+    .work_steps div {
+        height: 25px;
+        width: 25px;
+        padding-top: 0px;
+    }
+    
+    
+    
+    .work_steps p {
+        text-align: left;
+    }
+    
+    .work_steps_last img {
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+    
+    .section_form {
+       padding-top: 20px; 
+    }
+    
+    .contact-form {
+        margin-top: -15px;
+    }
+    
+    .newsletter {
+        margin-top: 10px;
+    }
+    
+    .checkbox {
+        margin-top: -7px;
+    }
+    
+    .section_form h2 {
+        font-size: 160%;
+    }
+    
+    .div_paragraphe:before {
+        top: -25px;
     }
     
 }
 
 @media only screen and (max-width: 480px){
     body {
-        font-size: 40%;
+        font-size: 55%;
     }
     
     nav ul {
