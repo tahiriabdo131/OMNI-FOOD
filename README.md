@@ -1,4 +1,4 @@
-Link: https://tahiriabdo131.github.io/omni-food
+Link: https://tahiriabdo131.github.io/OMNI-FOOD
 
 Responsive static website for a Restaurant. I implemented it using HTML, CSS, JS
 ![1](https://user-images.githubusercontent.com/56969009/131608501-f2ce7f58-4067-4d1e-ab45-da7c04c081a1.PNG)
